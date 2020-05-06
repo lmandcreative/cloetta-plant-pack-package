@@ -3,12 +3,7 @@
 
         <!-- animations -->
         <script src="js/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/ScrollToPlugin.min.js"></script>
-        <!--svg animations -->
-        <!--<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      -->
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>-->
-
+ 
         <!-- scroll events -->
         <script src="js/ScrollMagic.min.js"></script>
         <script src="js/animation.gsap.min.js"></script>

@@ -1,13 +1,18 @@
-# STATIC
 
-sass --watch sass/main.scss style.css
+# STATIC 
 
-**This directory is not required, you can delete it if you don't want to use it.**
+Basically this is a static webpage, a one-pager. There is only one actual page template: index.php, that is needed. Languages are injected with javascript from json files.
 
-This directory contains your static files.
-Each file inside this directory is mapped to `/`.
-Thus you'd want to delete this README.md before deploying to production.
+## Languages
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+Assets/languages folder contains json-files for each language.
+Js/localisation.js file has skripts that change the language.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
+When we add a new language, we need to 
+1. creat json-file
+2. edit localisation.js and add the language
+3. edit partials/header.php to add the language to the dropdown in the header.
+
+## Scripts
+
+All scripts are in the js-folder except jquery that is the only external link.
