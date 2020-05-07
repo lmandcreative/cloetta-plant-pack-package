@@ -26,6 +26,7 @@
   <meta name="theme-color" content="#79bb31">
 
   <!-- og tags -->
+  <meta property="og:url" content="https://cloetta.com/plantpack" />
   <meta property="og:title" content="PlantPack by Cloetta">
   <meta property="og:description"
     content="Sweet news for our planet! We are proud to present PlantPack, Cloetta's first step into future-proof packaging solution.">
