@@ -16,8 +16,7 @@
       </div>
       <div class="col-12 col-md-8 col">
         <p id="ingressi">
-          We are proud to present PlantPack, Cloetta's first step into
-          future-proof packaging solution.
+          We are proud to present PlantPack, Cloetta’s next step into future-proof packaging solutions.
         </p>
       </div>
     </div>

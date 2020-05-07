@@ -4,8 +4,7 @@
             <div class="row align-items-center reveal mb-2">
               <div class="col-12">
                 <p id="recycle1">
-                  At Cloetta we’re innovating towards Less and Better Plastics, an area we believe needs extra attention. We’ve made it part of our vision and we’ve set important goals to 
-                  <span id="recycle1-underline" class="underline">work toward.</span>
+                  At Cloetta we’re innovating towards Less and Better Plastics, an area we believe needs extra attention. We’ve made it part of our vision and we’ve set important goals to work toward.
                 </p>
               </div>
             </div>

@@ -222,6 +222,10 @@ header .navbar.sticky .logo {
     max-width: 12rem;
   }
 }*/
+svg {
+  width: 100% \\9;
+}
+
 .arrow-link {
   width: 100%;
   position: absolute;

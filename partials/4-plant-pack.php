@@ -8,17 +8,10 @@
               </div>
               <div class="col-12">
                 <p id="plantpack1">
-          Your candy bag is in most ways still an ordinary bag,
-          protecting your candy, sharing its contents with you, and it
-          can be sorted with other normal plastic materials. Don't
-          confuse this material quality with biodegradable – it's not,
-          we would rather have it contributing to a circular economy
-          than leaving it to degrade.
+          Your candy bag is in most ways still an ordinary bag, protecting your candy, sharing its contents with you, and it can be sorted with other normal plastic materials. Don’t confuse this material quality with biodegradable – it’s not, we would rather have it contributing to a circular economy than leaving it to degrade.
         </p>
         <p id="plantpack2">
-          We hope you like our new PlantPack – when you buy one of these
-          sweets bags, you get the tasty candy inside and a friendlier
-          kind of plastic made from sugarcane and joy at Cloetta.
+          We hope you like our new PlantPack - when you buy one of these sweet bags, you get the tasty candy inside and a friendlier kind of plastic made from sugarcane and joy at Cloetta.
         </p>
         <h2 id="endtitle" class="text-center">A sweet win-win!</h2>
               </div>

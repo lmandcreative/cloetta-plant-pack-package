@@ -3,7 +3,7 @@
 
         <!-- animations -->
         <script src="js/gsap.min.js"></script>
- 
+
         <!-- scroll events -->
         <script src="js/ScrollMagic.min.js"></script>
         <script src="js/animation.gsap.min.js"></script>
