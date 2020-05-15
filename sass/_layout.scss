@@ -6,12 +6,6 @@
     max-width: 10rem;
   }
 }
-/*
-#footer {
-  .logo.by-cloetta {
-    max-width: 12rem;
-  }
-}*/
 
 svg {
   width: 100% \\9;
@@ -84,16 +78,7 @@ svg {
 }
 
 .plantpack_dummy {
-  //background: url("/PlantPack_dummy_package_tausta.png") no-repeat;
-  //background-size: contain;
-  //padding: 3rem 3.5rem;
-  //padding-bottom: 56%;
   .dummy {
-    /*position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: 100%;*/
     position: relative;
     z-index: -1;
   }
@@ -107,14 +92,6 @@ svg {
     transform: translate(-50%, -50%);
     width: 40%;
     z-index: 1;
-  }
-  #sugar-cane-anim {
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    height: auto;
-    //background: $green;
-    z-index: 10;
   }
 }
 

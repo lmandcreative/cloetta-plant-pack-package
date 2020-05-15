@@ -7,6 +7,36 @@
   }
 }
 
+  #sugar-cane-anim, #earth {
+    position: relative;
+    width: 100%;
+    height:0;
+    padding:0;
+    padding-bottom:100%;
+    z-index: 10;
+    &>svg {
+       position: absolute; 
+      left: 0; 
+      top: 0;
+    }
+  }
+  #recycle {
+    position: relative;
+    width: 100%;
+    height:0;
+    padding:0;
+    padding-bottom:200%;
+    z-index: 10;
+    @media screen and (min-width:$m) {
+      padding-bottom:100%;
+    }
+    &>svg {
+       position: absolute; 
+      left: 0; 
+      top: 0;
+    }
+  }
+
 #sweet-news {
   .leaf {
     &-1 {
@@ -102,7 +132,7 @@
       }
       @media screen and (min-width: $m) {
         bottom: 0%;
-        left: 23%;
+        left: 13%;
       }
     }
     &-2 {
@@ -162,35 +192,5 @@
         transform: rotate(85deg) scale(0.8);
       }
     }
-  }
-}
-/*
-.leaf {
-  .img {
-    animation-name: random;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-  }
-  &.leaf-1 .img {
-    animation-delay: 1.5s;
-  }
-  &.leaf-3 .img {
-    animation-delay: 2.8s;
-  }
-}*/
-
-@keyframes random {
-  0% {
-    transform: rotate(5deg) translate(4%, 7%);
-  }
-  33% {
-    transform: rotate(35deg) translate(14%, 18%);
-  }
-  63% {
-    transform: rotate(-4deg) translate(0%, 2%);
-  }
-  100% {
-    transform: rotate(5deg) translate(4%, 7%);
   }
 }

@@ -173,8 +173,7 @@ header .navbar.sticky .logo {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-.navbar-dark .navbar-nav .dropdown,
-.navbar-dark .navbar-nav .dropdown a {
+.navbar-dark .navbar-nav .dropdown {
   position: relative;
   z-index: 9999;
   text-decoration: none;
@@ -216,12 +215,6 @@ header .navbar.sticky .logo {
   max-width: 10rem;
 }
 
-/*
-#footer {
-  .logo.by-cloetta {
-    max-width: 12rem;
-  }
-}*/
 svg {
   width: 100% \\9;
 }
@@ -306,11 +299,6 @@ svg {
 }
 
 .plantpack_dummy .dummy {
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 100%;*/
   position: relative;
   z-index: -1;
 }
@@ -324,13 +312,6 @@ svg {
   transform: translate(-50%, -50%);
   width: 40%;
   z-index: 1;
-}
-.plantpack_dummy #sugar-cane-anim {
-  position: relative;
-  z-index: 10;
-  width: 100%;
-  height: auto;
-  z-index: 10;
 }
 
 .steps {
@@ -452,6 +433,39 @@ svg {
   opacity: 1;
 }
 
+#sugar-cane-anim, #earth {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding: 0;
+  padding-bottom: 100%;
+  z-index: 10;
+}
+#sugar-cane-anim > svg, #earth > svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#recycle {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding: 0;
+  padding-bottom: 200%;
+  z-index: 10;
+}
+@media screen and (min-width: 45rem) {
+  #recycle {
+    padding-bottom: 100%;
+  }
+}
+#recycle > svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 #sweet-news .leaf-1 {
   bottom: 8rem;
   right: 10%;
@@ -560,7 +574,7 @@ svg {
 @media screen and (min-width: 45rem) {
   #cotwo .leaf-1 {
     bottom: 0%;
-    left: 23%;
+    left: 13%;
   }
 }
 #cotwo .leaf-2 {
@@ -624,35 +638,6 @@ svg {
   transform: rotate(85deg) scale(0.8);
 }
 
-/*
-.leaf {
-  .img {
-    animation-name: random;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-  }
-  &.leaf-1 .img {
-    animation-delay: 1.5s;
-  }
-  &.leaf-3 .img {
-    animation-delay: 2.8s;
-  }
-}*/
-@keyframes random {
-  0% {
-    transform: rotate(5deg) translate(4%, 7%);
-  }
-  33% {
-    transform: rotate(35deg) translate(14%, 18%);
-  }
-  63% {
-    transform: rotate(-4deg) translate(0%, 2%);
-  }
-  100% {
-    transform: rotate(5deg) translate(4%, 7%);
-  }
-}
 html {
   scroll-behavior: smooth;
 }

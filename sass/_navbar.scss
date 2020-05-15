@@ -3,6 +3,7 @@
   width: 100%;
   //opacity: 0;
 }
+
 header {
   position: fixed;
   position: -webkit-sticky;
@@ -14,28 +15,35 @@ header {
   font-family: "Daft-brush", sans-serif;
   color: #fff;
   transition: all 0.2s ease-in-out;
+
   /*&.up {
     top: -80px; // same as header height. use variables in LESS/SASS
   }*/
   .logo {
     transition: all 1s ease-in-out;
     max-width: 4rem;
+
     @media screen and (min-width: $m) {
       opacity: 0;
     }
   }
+
   .navbar {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     margin-bottom: -8rem;
+
     &.sticky {
       background: $green;
+
       @media screen and (min-width: $m) {
         background: transparent;
       }
+
       .logo {
         opacity: 1;
         max-width: 4rem;
+
         @media screen and (min-width: $l) {
           max-width: 6rem;
         }
@@ -43,6 +51,7 @@ header {
     }
   }
 }
+
 // we'll add this class using javascript
 
 .dropdown-circle {
@@ -59,16 +68,18 @@ header {
   .navbar-nav {
     font-size: 1.35rem;
     position: relative;
+
     .nav-link {
       color: #fff;
     }
-    .dropdown,
-    .dropdown a {
+
+    .dropdown {
       position: relative;
       z-index: 9999;
       text-decoration: none;
       cursor: pointer;
     }
+
     .dropdown-menu {
       position: absolute;
       top: 3rem;
@@ -82,13 +93,16 @@ header {
       border: 0px solid transparent;
       display: block;
       transition: all 0.35s ease-in-out;
+
       .dropdown-item {
         color: #fff;
+
         &:hover {
           background: transparent;
           color: #fff;
           text-decoration: underline;
         }
+
         &:focus {
           background: transparent !important;
           color: $green-dark;

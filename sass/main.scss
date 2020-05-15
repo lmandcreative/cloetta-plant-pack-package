@@ -1,9 +1,9 @@
-@import "breakpoints.scss";
-@import "colors.scss";
-@import "typography.scss";
-@import "navbar.scss";
-@import "layout.scss";
-@import "animations.scss";
+@import "_breakpoints.scss";
+@import "_colors.scss";
+@import "_typography.scss";
+@import "_navbar.scss";
+@import "_layout.scss";
+@import "_animations.scss";
 
 html {
   scroll-behavior: smooth;

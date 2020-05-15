@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row align-items-center hero reveal">
       <div class="mb-0 mb-4 col-12 d-none d-md-block">
-         <img class="img-fluid logo by-cloetta" alt="PlantPack by Cloetta" src="/images/logo-by-cloetta.svg" style="width: 100% \\9;">
+         <img class="img-fluid logo by-cloetta" alt="PlantPack by Cloetta" src="images/logo-by-cloetta.svg" style="width: 100% \\9;">
       </div>
       <div class="col-12 col">
         <div class="row no-gutters align-items-center mb-2">
@@ -22,7 +22,7 @@
     </div>
     <?php include 'partials/leafs.php';?>
     <a href="#procent" class="arrow-link text-center"><img
-                src="/images/Arrow.svg" alt="next section"
+                src="images/Arrow.svg" alt="next section"
                 class="d-inline arrow img-fluid"
                 style="width: 100% \\9;"
             /></a>

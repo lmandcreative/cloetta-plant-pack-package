@@ -19,7 +19,7 @@
             <?php include 'partials/leafs.php';?>
             <a href="#footer" class="arrow-link col-12 text-center"
               ><img
-                src="/images/Arrow.svg" alt="next section"
+                src="images/Arrow.svg" alt="next section"
                 class="d-inline arrow img-fluid"
                 style="width: 100% \\9;"
             /></a>
