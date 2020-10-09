@@ -88,7 +88,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-var languages = ['eng', 'swe'];
+var languages = ['eng', 'swe', 'fi', 'dk'];
 var navHeader = document.getElementById('navbarDropdown');
 
 function init() {
@@ -122,7 +122,7 @@ function init() {
 
 function callJSON(currLang) {
   navHeader.innerHTML = currLang.toString();
-  var url = "../assets/languages/" + currLang + ".json";
+  var url = "assets/languages/" + currLang + ".json";
   var Http = new XMLHttpRequest();
 
   Http.onreadystatechange = function () {

@@ -4359,9 +4359,10 @@ var assetLoader = (function(){
 	}
 
 	function loadAsset(path, callback, errorCallback) {
+    if(path.substring(0, 1) == '/'){ path = path.replace('/',''); }
 		var response;
 		var xhr = new XMLHttpRequest();
-		xhr.open('GET', path, true);
+    xhr.open('GET', path, true);
 		// set responseType after calling open or IE will break.
 		try {
 		    // This crashes on Android WebView prior to KitKat

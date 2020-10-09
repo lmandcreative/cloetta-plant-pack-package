@@ -61,7 +61,7 @@
                       </g>
                     </g>
                   </svg>
-                  <img src="/images/PlantPack_dummy_package-2.png" alt="packaging" class="dummy img-fluid" />
+                  <img src="images/PlantPack_dummy_package-2.png" alt="packaging" class="dummy img-fluid" />
                 </div>
             </div>
             <?php include 'partials/leafs.php';?>
