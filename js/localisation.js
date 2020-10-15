@@ -146,7 +146,14 @@ function changeLanguage(data) {
   var cotwo3 = document.getElementById('cotwo3');
   var plantpack1 = document.getElementById('plantpack1');
   var plantpack2 = document.getElementById('plantpack2');
-  var endtitle = document.getElementById('endtitle');
+  var endtitle = document.getElementById('endtitle'); // address
+
+  var companyName = document.getElementById("comapany-name");
+  var companyPostalAddress = document.getElementById("company-postal-address");
+  var companyWtf = document.getElementById("company-wtf");
+  var companyCity = document.getElementById("company-city");
+  var companyPhone = document.getElementById("company-phone");
+  var companyRegistrationNumber = document.getElementById("company-registration-number");
   title.innerHTML = data.title;
   ingressi.innerHTML = data.ingressi;
   recycle1.innerHTML = data.recycle1;
@@ -156,7 +163,14 @@ function changeLanguage(data) {
   cotwo3.innerHTML = data.cotwo3;
   plantpack1.innerHTML = data.plantpack1;
   plantpack2.innerHTML = data.plantpack2;
-  endtitle.innerHTML = data.endtitle;
+  endtitle.innerHTML = data.endtitle; // 
+
+  companyName.innerHTML = data.companyName;
+  companyPostalAddress.innerHTML = data.companyPostalAddress;
+  companyWtf.innerHTML = data.companyWtf;
+  companyCity.innerHTML = data.companyCity;
+  companyPhone.innerHTML = data.companyPhone;
+  companyRegistrationNumber.innerHTML = data.companyRegistrationNumber;
 }
 
 function urlParameters() {
