@@ -1,13 +1,20 @@
 // init scrollmagic
 var controller = new ScrollMagic.Controller();
-
 // init lottie, load svg json, and declare params
+
 var sugarCaneAnimation = bodymovin.loadAnimation({
   container: document.getElementById("sugar-cane-anim"),
   renderer: "svg",
   loop: true,
   autoplay: false,
   path: "/json/sugar-cane-v3-data.json",
+});
+var sugarCaneAnimationJar = bodymovin.loadAnimation({
+  container: document.getElementById("sugar-cane-anim-jar"),
+  renderer: "svg",
+  loop: true,
+  autoplay: false,
+  path: "/json/sugar-jar-data.json",
 });
 var recycleAnimation = bodymovin.loadAnimation({
   container: document.getElementById("recycle"),
@@ -27,8 +34,10 @@ var earthAnimation = lottie.loadAnimation({
 // init gsap timeline to wrap the lottie animation
 // lines that are commented out are from: https://youtu.be/HeY9qGUT3zQ
 var sugarCaneControl = gsap.timeline();
+var sugarCaneControlJar = gsap.timeline();
 var recycleControl = gsap.timeline();
 var earthControl = gsap.timeline();
+
 sugarCaneAnimation.addEventListener("DOMLoaded", function () {
   sugarCaneControl.to(
     {
@@ -47,6 +56,26 @@ sugarCaneAnimation.addEventListener("DOMLoaded", function () {
     }
   );
 });
+
+sugarCaneAnimationJar.addEventListener("DOMLoaded", function () {
+  sugarCaneControl.to(
+    {
+      //frame: 0,
+    },
+    1,
+    {
+      //frame: sugarCaneControl.totalFrames - 1,
+      onUpdate: function () {
+        //sugarCaneAnimation.goToAndStop(Math.round(this.target.frame), true);
+        sugarCaneAnimationJar.play();
+      },
+      //repeat: -1,
+      //yoyo: true,
+      //ease:Linear.easeNone
+    }
+  );
+});
+
 // init basic scrollmagic scene
 var sugarCaneScene = new ScrollMagic.Scene({
   triggerElement: "#plantpack",
