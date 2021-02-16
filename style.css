@@ -433,7 +433,7 @@ svg {
   opacity: 1;
 }
 
-#sugar-cane-anim, #earth {
+#sugar-cane-anim, #sugar-cane-anim-jar, #earth {
   position: relative;
   width: 100%;
   height: 0;
@@ -441,7 +441,7 @@ svg {
   padding-bottom: 100%;
   z-index: 10;
 }
-#sugar-cane-anim > svg, #earth > svg {
+#sugar-cane-anim > svg, #sugar-cane-anim-jar > svg, #earth > svg {
   position: absolute;
   left: 0;
   top: 0;
@@ -650,3 +650,23 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*
+#sugar-cane-anim-jar { display: none; }
+
+body.nl #sugar-cane-anim { display: none; }
+body.nl #sugar-cane-anim-jar { display: block; }
+*/
+
+body.swe .bag { display: block; }
+body.swe .jar { display: none; }
+
+body.fi .bag { display: block; }
+body.fi .jar { display: none; }
+
+body.dk .bag { display: block; }
+body.dk .jar { display: none; }
+
+body.nl .bag { display: none; }
+body.nl .jar { display: block; }
+
