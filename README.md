@@ -1,1 +1,3 @@
-Cloetta PlantPack site. Server needs PHP support.
+## Cloetta PlantPack site 
+
+Server must support PHP.
